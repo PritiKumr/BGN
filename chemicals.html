@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>BGN Enterprise</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+	.dropdown-submenu {
+	    position: relative;
+	}
+
+	.dropdown-submenu .dropdown-menu {
+	    top: 0;
+	    left: 100%;
+	    margin-top: -1px;
+	}
+	</style>
+	</head>
+	<body>
+		<header id="header">
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+			    
+			    <ul class="nav navbar-nav" style="width: 100%;">
+			      <li><a href="index.html">Home</a></li>
+			      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+			        <ul class="dropdown-menu" style="background: #1c1c1c;">
+			    			<li class="dropdown-submenu">
+			          	<a class="test" href="#">Hardware - IT <span class="caret"></span></a>
+				          <ul class="dropdown-menu" style="background: #1c1c1c;">
+					          <li><a href="end_user.html">End User Computing</a></li>
+					          <li><a href="server_storage.html">Server Storage</a></li>
+					          <li><a href="networking.html">Networking</a></li>
+					          <li><a href="printing_sol.html">Printing Solution</a></li>
+					        </ul>
+			          </li>
+
+			          <li><a href="chemicals.html">Chemicals</a></li>
+			          <li><a href="milk_diary.html">Milk Dairy Equipments</a></li>
+			        </ul>
+			      </li>
+			      <li style="padding-right: 15%;" class="pull-right"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			      <li>  </li>
+			    </ul>
+			  </div>
+			</nav>
+		</header>
+		<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+					<header class="major special">
+						<h1>Chemicals</h1>
+						<p>We deal with a variety of products that could be of great benefit to you.</p>
+					</header>
+
+					<!-- Image -->
+					<section>
+						<div class="box alt">
+							<div class="row 50% uniform">
+								<div class="4u">
+									<span class="image fit"><img src="images/Eko-day.jpg" alt="Laptops" />
+										<p style="text-align:center"><b>Eko milk analyser cleaning solution(Day)</b></p>
+									</span>
+								</div>
+								<div class="4u">
+									<span class="image fit"><img src="images/Eko-week.jpg" alt="Laptops" />
+										<p style="text-align:center"><b>Eko milk analyser cleaning solution(Week)</b></p>
+									</span>
+								</div>
+								<div class="4u">
+									<span class="image fit"><img src="images/Eko-month.jpg" alt="Laptops" />
+										<p style="text-align:center"><b>Eko milk analyser cleaning solution(Month)</b></p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+
+		<!-- Footer -->
+		<section id="footer">
+				<div class="inner">
+					<div class="copyright">
+						&copy; BGN Enterprise 2017
+					</div>
+				</div>
+			</section>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				$(document).ready(function(){
+				  $('.dropdown-submenu a.test').on("click", function(e){
+				    $(this).next('ul').toggle();
+				    e.stopPropagation();
+				    e.preventDefault();
+				  });
+				});
+			</script>
+	</body>
+</html>
