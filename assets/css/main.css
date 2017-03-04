@@ -3167,10 +3167,6 @@
 				color: red;
 			}
 
-			#header a:last-child {
-				padding-right: 0em;
-			}
-
 			@media screen and (max-width: 736px) {
 
 				#header a {
@@ -3357,6 +3353,31 @@
 				display: block;
 			}
 
+		}
+
+		.nav li {
+			width: 210px;
+    	text-align: center;
+		}
+
+		.nav li.dropdown.open {
+			background-color: #121212;
+		}
+
+		.nav .dropdown-menu {
+			width: 210px;
+		}
+
+		.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+			background-color: transparent;
+		}
+
+		.navbar .dropdown-menu li a{
+			background-color: transparent;
+		}
+
+		.navbar .dropdown-menu li:hover{
+    	background-color: #121212;
 		}
 
 /* Banner */
