@@ -3370,6 +3370,10 @@
 			width: 210px;
 		}
 
+		.nav .dropdown.open .dropdown-menu {
+			background: #3f3e3e;
+		}
+
 		.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
 			background-color: transparent;
 		}
