@@ -3095,14 +3095,14 @@
 
 	body {
 		position: relative;
-		padding-top: 5em;
+		padding-top: 50px;
 	}
 
 	#header {
 		background: #1c1c1c;
 		color: #d5d5d5;
 		cursor: default;
-		height: 5em;
+		height: 50px;
 		left: 0;
 		line-height: 5em;
 		position: fixed;
@@ -3357,7 +3357,9 @@
 
 		.nav li {
 			width: 210px;
+			height: 50px;
     	text-align: center;
+    	line-height: 50px;
 		}
 
 		.nav li.dropdown.open {
