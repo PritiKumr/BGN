@@ -3524,6 +3524,15 @@
 			line-height: 1.5;
 		}
 
+		.clients .logo{
+			text-align: center;
+		}
+
+		.clients .logo img{
+			width: 100px;
+			height: 100px;
+		}
+
 			@media screen and (max-width: 480px) {
 
 				#banner .inner {
