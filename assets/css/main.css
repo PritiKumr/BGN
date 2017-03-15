@@ -4014,3 +4014,7 @@ body {
   margin-top: 0;
   position: relative;
 }
+
+.chemical-image.image.fit img{
+	height: 100%;
+}
